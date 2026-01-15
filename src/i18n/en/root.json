@@ -1,0 +1,26 @@
+{
+  "hello_nestjs": "Hello Nest.js!",
+  "ok": "Ok!",
+
+  "create_success": "Create successfully",
+  "create_fail": "Create failed",
+  
+  "get_success": "Get list successfully",
+  "get_fail": "Get list failed",
+
+  "update_success": "Update successfully",
+  "update_fail": "Update failed",
+
+  "login_success": ":Login successfully",
+  "login_fail": "Login failed",
+
+  "logout_success": "Logout successfully",
+  
+  "delete_success": "Delete successfully",
+  "delete_fail": "Delete failed",
+  "auth": {
+    "actions": {
+      "login_success": "Login successfully"
+    }
+  }
+}
