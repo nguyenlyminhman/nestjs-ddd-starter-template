@@ -1,0 +1,25 @@
+{
+  "hello_nestjs": "Xin chào Nest.js!",
+  "ok": "Âu cơ !",
+  "create_success": "Tạo mới thành công",
+  "create_fail": "Tạo mới thất bại",
+  
+  "get_success": "Lấy danh sách thành công",
+  "get_fail": "Lấy danh sách thất bại",
+
+  "update_success": "Cập nhật thành công",
+  "update_fail": "Cập nhật thất bại",
+
+  "login_success": "Đăng nhập thành công",
+  "login-fail": "Đăng nhập thất bại",
+
+  "logout_success": "Đăng xuất thành công",
+  
+  "delete_success": "Xóa thành công",
+  "delete_fail": "Xóa thất bại",
+  "auth": {
+    "actions": {
+      "login_success": "Đăng nhập thành công"
+    }
+  }
+}
