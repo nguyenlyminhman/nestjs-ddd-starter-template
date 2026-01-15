@@ -6,6 +6,9 @@ import { ConfigModule } from '@nestjs/config';
 import { ServerConfigService } from './modules/shared/server-config.service';
 import { AcceptLanguageResolver, I18nModule, QueryResolver } from 'nestjs-i18n';
 import { join } from 'path';
+import { UsersModule } from './modules/users/users.module';
+import { AuthModule } from './modules/auth/auth.module';
+import { PrismaModule } from './modules/prisma/prisma.module';
 
 @Module({
   imports: [
@@ -31,7 +34,10 @@ import { join } from 'path';
         AcceptLanguageResolver,
       ],
     }),
-    SharedModule],
+    SharedModule,
+    UsersModule,
+    AuthModule,
+    PrismaModule],
   controllers: [AppController],
   providers: [AppService,],
 })
